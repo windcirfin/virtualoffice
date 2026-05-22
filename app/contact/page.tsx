@@ -31,9 +31,9 @@ export default function ContactPage() {
     {
       icon: MessageCircle,
       title: "WhatsApp Support",
-      value: "+91 98765 43211",
+      value: "+91 87440 41519",
       desc: "Fastest response for quick queries.",
-      action: "https://wa.me/919876543211",
+      action: "https://wa.me/918744041519",
       label: "Chat on WhatsApp",
       color: "text-emerald-600",
       bg: "bg-emerald-50"

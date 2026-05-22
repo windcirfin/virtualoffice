@@ -30,6 +30,19 @@ import BusinessRegistrationHub from "@/app/lp/BusinessRegistrationHub";
 import InfrastructureCapabilities from "@/app/lp/InfrastructureCapabilities";
 
 export default function HighTrustFounderFunnel() {
+  // WhatsApp click handler with Google Ads conversion tracking
+  const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    // Fire the Google Ads conversion tracker
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'conversion', {
+        'send_to': 'AW-18177709746/-mbyCLPNprEcELKt59tD',
+        'event_callback': () => {
+          console.log('WhatsApp Conversion Tracked!');
+        }
+      });
+    }
+  };
+
   return (
     <div className="bg-white min-h-screen text-slate-900 font-sans">
       {/* Top Trust Strip */}
@@ -353,11 +366,12 @@ export default function HighTrustFounderFunnel() {
                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                </PremiumButton>
                
-               {/* WhatsApp Founder Support Button - Replaces Free Founder Consultation */}
+               {/* WhatsApp Founder Support Button - With Conversion Tracking */}
                <a 
                  href="https://wa.me/918744041519?text=Hi,%20I%20want%20to%20check%20my%20eligibility%20for%20the%20Founder%20Subsidy%20(1st%20Year%20Free)." 
                  target="_blank"
                  rel="noopener noreferrer"
+                 onClick={handleWhatsAppClick}
                  className="flex items-center justify-center gap-3 bg-emerald-500 text-white px-10 py-5 rounded-full font-bold shadow-xl shadow-emerald-500/20 hover:scale-105 transition-transform"
                >
                  <MessageCircle className="w-5 h-5 fill-white" /> 
