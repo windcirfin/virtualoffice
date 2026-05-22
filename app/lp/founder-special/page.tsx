@@ -33,8 +33,8 @@ export default function HighTrustFounderFunnel() {
   // WhatsApp click handler with Google Ads conversion tracking
   const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     // Fire the Google Ads conversion tracker
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'conversion', {
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'conversion', {
         'send_to': 'AW-18177709746/-mbyCLPNprEcELKt59tD',
         'event_callback': () => {
           console.log('WhatsApp Conversion Tracked!');
