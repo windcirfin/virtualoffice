@@ -41,9 +41,9 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: "Email Inquiry",
-      value: "hello@virtualaddress.in",
+      value: "support@virtualaddress.co.in",
       desc: "For detailed proposals and partnerships.",
-      action: "mailto:hello@virtualaddress.in",
+      action: "mailto:support@virtualaddress.co.in",
       label: "Send Email",
       color: "text-indigo-600",
       bg: "bg-indigo-50"
