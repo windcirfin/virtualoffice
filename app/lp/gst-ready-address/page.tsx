@@ -33,17 +33,6 @@ import { ClientGallery } from "@/components/sections/ClientGallery";
 import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 export default function HighTrustGSTFunnel() {
-  // ============================================================
-  {/* WhatsApp for Free Audit Button with Tracking */ }
-  <WhatsAppButton
-    href="https://wa.me/918744041519?text=Hi,%20I%20need%20a%20GST-ready%20virtual%20office%20and%20want%20a%20free%20document%20audit."
-    className="flex items-center justify-center gap-3 bg-emerald-50 text-emerald-700 border border-emerald-200 px-10 py-5 rounded-full font-bold shadow-xl hover:bg-emerald-100 transition-colors"
-  >
-    <MessageCircle className="w-5 h-5 fill-emerald-600" />
-    <span>WhatsApp for Free Audit</span>
-  </WhatsAppButton>
-  // ============================================================
-
   return (
     <div className="bg-white min-h-screen text-slate-900 font-sans">
       {/* 1. TOP TRUST STRIP + URGENCY BANNER */}
