@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import {
   ShieldCheck,
@@ -32,21 +30,18 @@ import UseCasesSection from "@/app/lp/UseCasesSection";
 import BusinessRegistrationHub from "@/app/lp/BusinessRegistrationHub";
 import InfrastructureCapabilities from "@/app/lp/InfrastructureCapabilities";
 import { ClientGallery } from "@/components/sections/ClientGallery";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 export default function HighTrustGSTFunnel() {
   // ============================================================
-  // PHASE 4: GOOGLE AI WHATSAPP CONVERSION TRACKING
-  // ============================================================
-  const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'conversion', {
-        'send_to': 'AW-18177709746/-mbyCLPNprEcELKt59tD', // Using your verified label
-        'event_callback': () => {
-          console.log('GST-Ready WhatsApp Conversion Tracked!');
-        }
-      });
-    }
-  };
+  {/* WhatsApp for Free Audit Button with Tracking */ }
+  <WhatsAppButton
+    href="https://wa.me/918744041519?text=Hi,%20I%20need%20a%20GST-ready%20virtual%20office%20and%20want%20a%20free%20document%20audit."
+    className="flex items-center justify-center gap-3 bg-emerald-50 text-emerald-700 border border-emerald-200 px-10 py-5 rounded-full font-bold shadow-xl hover:bg-emerald-100 transition-colors"
+  >
+    <MessageCircle className="w-5 h-5 fill-emerald-600" />
+    <span>WhatsApp for Free Audit</span>
+  </WhatsAppButton>
   // ============================================================
 
   return (
@@ -491,16 +486,13 @@ export default function HighTrustGSTFunnel() {
             </PremiumButton>
 
             {/* WhatsApp for Free Audit Button with Tracking */}
-            <a
+            <WhatsAppButton
               href="https://wa.me/918744041519?text=Hi,%20I%20need%20a%20GST-ready%20virtual%20office%20and%20want%20a%20free%20document%20audit."
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={handleWhatsAppClick}
               className="flex items-center justify-center gap-3 bg-emerald-50 text-emerald-700 border border-emerald-200 px-10 py-5 rounded-full font-bold shadow-xl hover:bg-emerald-100 transition-colors"
             >
               <MessageCircle className="w-5 h-5 fill-emerald-600" />
-              WhatsApp for Free Audit
-            </a>
+              <span>WhatsApp for Free Audit</span>
+            </WhatsAppButton>
           </div>
 
           <p className="text-[10px] text-slate-400 mt-8">No obligation • Free consultation • Documents reviewed before payment</p>

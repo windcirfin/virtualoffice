@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import {
   ShieldCheck,
@@ -19,6 +17,7 @@ import Link from "next/link";
 import { PremiumButton } from "@/components/ui/PremiumButton";
 import { HomepageHero } from "@/components/hero/HomepageHero";
 import { cities } from "@/data/cities";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -282,9 +281,13 @@ export default function Home() {
             <p className="text-slate-400 mb-12 text-lg max-w-xl mx-auto">Establish your presence with India's most reliable virtual office network.</p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <PremiumButton href="/contact" className="px-12 py-4">Get Started Now</PremiumButton>
-              <PremiumButton href="https://wa.me/918744041519" variant="whatsapp" className="px-12 py-4">
-                Talk to Sales
-              </PremiumButton>
+
+              {/* REPLACED WITH OUR GOOGLE ADS TRACKED BUTTON */}
+              <WhatsAppButton
+                text="Talk to Sales"
+                className="px-12 py-4 rounded-full font-bold transition-all bg-[#25D366] text-white hover:bg-[#20bd5a] hover:shadow-lg hover:shadow-[#25D366]/30 flex items-center justify-center gap-2"
+              />
+
             </div>
           </div>
         </div>

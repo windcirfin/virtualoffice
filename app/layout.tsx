@@ -20,6 +20,18 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        {/* Google Tag Manager - Head */}
+        <Script id="google-tag-manager" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-MSTHQMBZ');
+          `}
+        </Script>
+
+        {/* Google Analytics (keep if still needed, or remove if GTM handles this) */}
         <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=AW-18177709746`}
@@ -38,6 +50,16 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} font-sans bg-white text-slate-900 antialiased`}>
+        {/* Google Tag Manager (noscript) - Body */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MSTHQMBZ"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+        
         <Navbar />
         <main className="flex min-h-screen flex-col pt-20">
           {children}

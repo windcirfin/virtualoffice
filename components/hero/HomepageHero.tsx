@@ -1,5 +1,3 @@
-"use client";
-
 import { CheckCircle2, ShieldCheck, FileText, MapPin, Building2 } from "lucide-react";
 import { LeadForm } from "../lead/LeadForm";
 

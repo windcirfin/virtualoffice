@@ -3,10 +3,21 @@ import { MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function WhatsAppFloating() {
+  const handleConversion = () => {
+    // Added (window as any) to bypass the strict TypeScript error
+    if (typeof window !== "undefined" && (window as any).gtag) {
+      (window as any).gtag("event", "conversion", {
+        send_to: "AW-18177709746/-mbyCLPNprEcELKt59tD",
+      });
+    }
+    console.log("Floating WhatsApp Conversion Tracked!");
+  };
+
   return (
     <motion.a
       href="https://wa.me/918744041519?text=Hi, I am interested in a Virtual Office."
       target="_blank"
+      onClick={handleConversion}
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       whileHover={{ scale: 1.1 }}
