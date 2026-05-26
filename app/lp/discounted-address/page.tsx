@@ -38,7 +38,7 @@ export default function HighTrustGSTFunnel() {
       {/* 1. TOP TRUST STRIP + URGENCY BANNER */}
       <div className="bg-slate-900 py-2.5 px-4 text-center">
         <p className="text-white/80 text-[10px] font-bold uppercase tracking-[0.25em]">
-          Operational Excellence: All addresses verified for 2026 Compliance Standards
+          Operational Excellence: All addresses verified for current standards
         </p>
       </div>
 
@@ -46,7 +46,7 @@ export default function HighTrustGSTFunnel() {
       <div className="bg-amber-50 border-b border-amber-200 py-2 px-4 text-center">
         <div className="flex items-center justify-center gap-2 text-xs font-bold text-amber-800">
           <AlertCircle className="w-3 h-3" />
-          <span>⚠️ Limited addresses available in BKC, Gurgaon, and Bangalore - 12 slots remaining this quarter</span>
+          <span>⚠️ Limited addresses available in BKC, Gurgaon, and Bangalore - limited availability this quarter</span>
           <Clock className="w-3 h-3" />
         </div>
       </div>
@@ -58,14 +58,14 @@ export default function HighTrustGSTFunnel() {
           {/* Location 1: Removed motion.div wrapper from left column */}
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-[10px] font-black uppercase tracking-wider mb-8">
-              GST Registration Support
+              Business Registration Support
             </div>
             <h1 className="text-5xl md:text-7xl font-black text-slate-900 mb-8 leading-[0.95] tracking-tighter italic-none">
               Your Address, <br />
-              <span className="text-blue-600">Verification-Ready.</span>
+              <span className="text-blue-600">Documentation-Ready.</span>
             </h1>
             <p className="text-xl text-slate-600 mb-6 leading-relaxed italic-none">
-              Reduce the risk of GST rejections. Secure a premium business address with a **Compliance-Focused Documentation Suite** and on-site coordination support.
+              Support your business registration needs. Secure a premium business address with a **comprehensive Documentation Suite** and on-site coordination support.
             </p>
 
             {/* AVATAR SECTION - Added Social Proof */}
@@ -74,22 +74,22 @@ export default function HighTrustGSTFunnel() {
                 <img
                   src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop&crop=faces"
                   className="w-10 h-10 rounded-full border-2 border-white object-cover relative z-40"
-                  alt="GST Success Client"
+                  alt="Success Client"
                 />
                 <img
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&h=100&fit=crop&crop=faces"
                   className="w-10 h-10 rounded-full border-2 border-white object-cover relative z-30"
-                  alt="GST Success Client"
+                  alt="Success Client"
                 />
                 <img
                   src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100&h=100&fit=crop&crop=faces"
                   className="w-10 h-10 rounded-full border-2 border-white object-cover relative z-20"
-                  alt="GST Success Client"
+                  alt="Success Client"
                 />
                 <img
                   src="https://images.unsplash.com/photo-1598550874175-4d0ef436c909?w=100&h=100&fit=crop&crop=faces"
                   className="w-10 h-10 rounded-full border-2 border-white object-cover relative z-10"
-                  alt="GST Success Client"
+                  alt="Success Client"
                 />
                 <div className="w-10 h-10 rounded-full border-2 border-white bg-emerald-600 flex items-center justify-center text-[10px] font-bold text-white relative z-0">
                   +500
@@ -97,7 +97,7 @@ export default function HighTrustGSTFunnel() {
               </div>
               <div>
                 <p className="text-xs text-slate-600">
-                  <span className="font-bold text-slate-900">500+ successful GST registrations</span> completed using our addresses
+                  <span className="font-bold text-slate-900">500+ successful registrations</span> supported using our addresses
                 </p>
                 <div className="flex gap-0.5 mt-1">
                   {[1, 2, 3, 4, 5].map(i => <Star key={i} className="w-3 h-3 fill-amber-500 text-amber-500" />)}
@@ -133,9 +133,9 @@ export default function HighTrustGSTFunnel() {
             <div className="relative bg-white border border-slate-200 rounded-[3rem] p-8 md:p-12 shadow-2xl">
               {/* Scarcity Badge on Form */}
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-500 text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-wider whitespace-nowrap">
-                Free Document Audit Worth ₹999
+                Free Document Review Worth ₹999
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-2 tracking-tight italic-none mt-4">Request GST Package</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-2 tracking-tight italic-none mt-4">Request Registration Package</h3>
               <p className="text-sm text-slate-500 mb-8 italic-none">Documents generally shared in 24 business hours.</p>
               <LeadForm />
 
@@ -160,29 +160,29 @@ export default function HighTrustGSTFunnel() {
       {/* TESTIMONIALS SECTION - Moved before comparison for social proof flow */}
       <section className="py-24 max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 italic-none tracking-tight">Real GST Success Stories</h2>
-          <p className="text-slate-500 max-w-2xl mx-auto">Join 500+ businesses that successfully registered for GST using our addresses</p>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 italic-none tracking-tight">Real Client Success Stories</h2>
+          <p className="text-slate-500 max-w-2xl mx-auto">Join 500+ businesses that successfully used our addresses for their registration needs</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
               name: "Amit Sharma",
               role: "Founder, CloudSaaS India",
-              quote: "Got my GST registration in 12 days flat. The documentation was perfect - no queries from the department.",
+              quote: "Got my registration done efficiently. The documentation was thorough - no queries from the department.",
               avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces",
               rating: 5
             },
             {
               name: "Neha Verma",
               role: "Director, NexaConsult",
-              quote: "The physical verification support was seamless. Their team coordinated everything with the GST inspector.",
+              quote: "The physical verification support was seamless. Their team coordinated everything with the visiting officials.",
               avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces",
               rating: 5
             },
             {
               name: "Rajesh K.",
               role: "Owner, TradeLink",
-              quote: "Worth every rupee. Saved me from the nightmare of address rejection. Highly recommended!",
+              quote: "Worth every rupee. Saved me from address-related delays. Highly recommended!",
               avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=faces",
               rating: 5
             }
@@ -207,7 +207,7 @@ export default function HighTrustGSTFunnel() {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4 gap-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100">
           {[
             { icon: TrendingUp, label: "Success Rate", value: "98%", desc: "Document approval" },
-            { icon: Clock3, label: "Avg Timeline", value: "12 Days", desc: "GST registration" },
+            { icon: Clock3, label: "Avg Timeline", value: "12 Days", desc: "Registration process" },
             { icon: Users, label: "Happy Clients", value: "500+", desc: "Across India" },
             { icon: Award, label: "Trust Score", value: "4.9/5", desc: "Verified reviews" }
           ].map((metric, i) => (
@@ -232,7 +232,7 @@ export default function HighTrustGSTFunnel() {
               Transparent Pricing for <br />Serious Businesses.
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed italic-none">
-              We've seen the ₹499/mo ads. They charge you extra for NOCs, mail handling, and compliance letters. Our pricing is fully-loaded, honest, and designed to satisfy your actual compliance needs.
+              We've seen the ₹499/mo ads. They charge you extra for NOCs, mail handling, and other documentation. Our pricing is fully-loaded, honest, and designed to support your business needs.
             </p>
           </div>
 
@@ -241,7 +241,7 @@ export default function HighTrustGSTFunnel() {
             {/* Location 3: CARD 1 - The Honest Standard (₹999) - Removed motion.div */}
             <div className="p-10 rounded-[2.5rem] bg-white border border-slate-200 shadow-xl flex flex-col">
               <h3 className="text-2xl font-bold text-slate-900 mb-2 italic-none">Standard Operations</h3>
-              <p className="text-sm text-slate-500 mb-8 italic-none">Straightforward, fully-loaded virtual address for immediate compliance.</p>
+              <p className="text-sm text-slate-500 mb-8 italic-none">Straightforward, fully-loaded virtual address for immediate business needs.</p>
 
               <div className="mb-8">
                 <p className="text-5xl font-black text-slate-900 italic-none">₹999<span className="text-lg text-slate-500 font-normal">/mo</span></p>
@@ -251,9 +251,9 @@ export default function HighTrustGSTFunnel() {
               <div className="space-y-4 mb-10 flex-grow">
                 {[
                   "Verified Premium Address",
-                  "GST & MCA Documentation (NOC Included)",
+                  "Business Documentation Support (NOC Included)",
                   "Unlimited Digital Mail Forwarding",
-                  "On-site Inspection Support",
+                  "On-site Verification Support",
                   "Cancel with 30-days notice"
                 ].map((feature, i) => (
                   <div key={i} className="flex items-start gap-3">
@@ -311,7 +311,7 @@ export default function HighTrustGSTFunnel() {
           <div className="max-w-3xl mx-auto mt-12 p-6 bg-white rounded-2xl border border-slate-200 text-center">
             <h4 className="text-sm font-bold text-slate-900 mb-2">Who qualifies for the 1st Year Free?</h4>
             <p className="text-xs text-slate-500 leading-relaxed italic-none">
-              This subsidy is exclusively allocated for <strong className="text-slate-900">businesses committing to a 4-year operational presence</strong> and is further limited to <strong className="text-slate-900">select compliance-verified hubs</strong> where we are currently onboarding partners. We invest in the upfront paperwork, betting on your long-term growth. If you prefer agility without a long-term agreement, our transparent <strong className="text-slate-900">₹999/mo plan</strong> offers the exact same documentation suite with no commitment.
+              This subsidy is exclusively allocated for <strong className="text-slate-900">businesses committing to a 4-year operational presence</strong> and is further limited to <strong className="text-slate-900">select verified hubs</strong> where we are currently onboarding partners. We invest in the upfront paperwork, betting on your long-term growth. If you prefer agility without a long-term agreement, our transparent <strong className="text-slate-900">₹999/mo plan</strong> offers the exact same documentation suite with no commitment.
             </p>
           </div>
         </div>
@@ -364,7 +364,7 @@ export default function HighTrustGSTFunnel() {
           <div className="order-2 lg:order-1">
             <div className="grid grid-cols-2 gap-6">
               {[
-                { icon: FileCheck, t: "Rent Agreement", d: "Notarized commercial lease as per government norms." },
+                { icon: FileCheck, t: "Rent Agreement", d: "Notarized commercial lease as per standard requirements." },
                 { icon: ShieldCheck, t: "Owner's NOC", d: "Formal No Objection Certificate for business use." },
                 { icon: Building2, t: "Utility Bill", d: "Recent address proof from property owner." },
                 { icon: SearchCheck, t: "Signage Proof", d: "Physical board display photo for address verification." }
@@ -378,20 +378,20 @@ export default function HighTrustGSTFunnel() {
             </div>
           </div>
           <div className="order-1 lg:order-2">
-            <h2 className="text-3xl md:text-5xl font-bold mb-8 italic-none tracking-tight">Compliance-Focused <br />Paperwork.</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-8 italic-none tracking-tight">Documentation-Focused <br />Paperwork.</h2>
             <p className="text-lg text-slate-600 mb-8 italic-none">
-              We avoid generic templates. Every document is audited by our internal compliance team to ensure it meets the state-specific requirements for your business registration.
+              We avoid generic templates. Every document is reviewed by our internal team to ensure it aligns with standard requirements for your business registration.
             </p>
             <div className="flex items-center gap-4 py-6 border-y border-slate-100">
               <div className="w-12 h-12 bg-emerald-50 rounded-full flex items-center justify-center">
                 <Scale className="w-6 h-6 text-emerald-600" />
               </div>
-              <p className="text-sm font-bold text-slate-900 uppercase tracking-tight">Designed for MCA & GST Standards</p>
+              <p className="text-sm font-bold text-slate-900 uppercase tracking-tight">Designed for Business Registration Standards</p>
             </div>
             {/* Added Guarantee Badge */}
             <div className="mt-6 flex items-center gap-3 text-emerald-600 bg-emerald-50 p-4 rounded-xl">
               <CheckCircle2 className="w-5 h-5" />
-              <p className="text-xs font-bold">100% document compliance guarantee or we revise for free</p>
+              <p className="text-xs font-bold">Document quality guarantee or we revise for free</p>
             </div>
           </div>
         </div>
@@ -408,7 +408,7 @@ export default function HighTrustGSTFunnel() {
             {[
               { t: "Building Signage", d: "Your brand name listed in the lobby or building directory." },
               { t: "Ready Records", d: "Maintenance of basic on-site records for verification visits." },
-              { t: "Reception Desk", d: "On-site staff to greet visitors and coordinate with inspectors." }
+              { t: "Reception Desk", d: "On-site staff to greet visitors and coordinate with officials." }
             ].map((item, i) => (
               <div key={i} className="text-center group">
                 <div className="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-600 transition-colors">
@@ -432,10 +432,10 @@ export default function HighTrustGSTFunnel() {
         <h2 className="text-3xl font-bold text-center mb-16 italic-none tracking-tight">Common Questions</h2>
         <div className="space-y-4">
           {[
-            { q: "Is this suitable for GST registration?", a: "Our addresses are commonly used for GST registration along with supporting documentation. Final approval remains subject to departmental verification as per government norms." },
+            { q: "Can this address be used for registration?", a: "Our addresses are commonly used for business registration along with supporting documentation. Final approval remains subject to departmental verification as per standard procedures." },
             { q: "How fast do I get the documents?", a: "Once KYC is completed and approved, documents are typically shared via email within 24 business hours." },
             { q: "What is your support for physical visits?", a: "Our support team coordinates with the partner location to assist during official verification visits at the registered address." },
-            { q: "What happens if my GST application gets rejected?", a: "We'll work with you to understand the rejection reason and provide revised documentation if needed. Our success rate is 98% for first-time approvals." }
+            { q: "What if my application faces issues?", a: "We'll work with you to understand the situation and provide revised documentation if needed. Our success rate is 98% for first-time approvals." }
           ].map((item, i) => (
             <div key={i} className="p-7 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
               <h4 className="font-bold mb-3 flex items-center gap-3 text-slate-900">
@@ -454,33 +454,33 @@ export default function HighTrustGSTFunnel() {
           {/* Scarcity Timer */}
           <div className="inline-flex items-center gap-2 bg-amber-100 text-amber-800 px-4 py-2 rounded-full mb-8">
             <Calendar className="w-4 h-4" />
-            <span className="text-xs font-bold uppercase tracking-wider">Only 12 premium addresses left this quarter</span>
+            <span className="text-xs font-bold uppercase tracking-wider">Limited premium addresses available this quarter</span>
           </div>
 
-          <h2 className="text-4xl md:text-6xl font-black mb-8 italic-none tracking-tighter">Secure Your GST-Ready Address.</h2>
+          <h2 className="text-4xl md:text-6xl font-black mb-8 italic-none tracking-tighter">Secure Your Address Today.</h2>
           <p className="text-slate-600 mb-10 text-lg italic-none max-w-xl mx-auto">
-            Join 500+ businesses that successfully registered for GST. Get your compliance documents in 24 hours.
+            Join 500+ businesses that successfully used our addresses. Get your documentation in 24 hours.
           </p>
 
           {/* Money-back Guarantee */}
           <div className="flex items-center justify-center gap-2 mb-8">
             <ShieldCheck className="w-5 h-5 text-emerald-600" />
-            <p className="text-sm font-bold text-slate-700">100% Document Compliance Guarantee</p>
+            <p className="text-sm font-bold text-slate-700">Document Quality Guarantee</p>
           </div>
 
           <div className="flex flex-col sm:flex-row justify-center gap-5">
             <PremiumButton href="/contact" variant="primary" className="px-14 py-5 text-lg shadow-xl shadow-blue-500/20 group">
-              Get GST-Ready Documents
+              Get Your Documents
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </PremiumButton>
 
             {/* WhatsApp for Free Audit Button with Tracking */}
             <WhatsAppButton
-              href="https://wa.me/918744041519?text=Hi,%20I%20need%20a%20GST-ready%20virtual%20office%20and%20want%20a%20free%20document%20audit."
+              href="https://wa.me/918744041519?text=Hi,%20I%20need%20a%20virtual%20office%20and%20want%20a%20free%20document%20review."
               className="flex items-center justify-center gap-3 bg-emerald-50 text-emerald-700 border border-emerald-200 px-10 py-5 rounded-full font-bold shadow-xl hover:bg-emerald-100 transition-colors"
             >
               <MessageCircle className="w-5 h-5 fill-emerald-600" />
-              <span>WhatsApp for Free Audit</span>
+              <span>WhatsApp for Free Review</span>
             </WhatsAppButton>
           </div>
 

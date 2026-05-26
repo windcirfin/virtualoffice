@@ -29,13 +29,13 @@ export default function Home() {
       <section className="py-8 border-y border-slate-100 bg-slate-50/50">
         <div className="max-w-7xl mx-auto px-4 overflow-hidden">
           <p className="text-center text-xs font-bold uppercase tracking-[0.2em] text-slate-400 mb-6">
-            Compliant with Indian Corporate Standards
+            Aligned with Indian Business Standards
           </p>
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-            <div className="flex items-center gap-2 font-bold text-xl">GST Ready</div>
-            <div className="flex items-center gap-2 font-bold text-xl">MCA Compliant</div>
-            <div className="flex items-center gap-2 font-bold text-xl">Startup India</div>
-            <div className="flex items-center gap-2 font-bold text-xl">MSME Verified</div>
+            <div className="flex items-center gap-2 font-bold text-xl">GST Support</div>
+            <div className="flex items-center gap-2 font-bold text-xl">MCA Ready</div>
+            <div className="flex items-center gap-2 font-bold text-xl">Startup Friendly</div>
+            <div className="flex items-center gap-2 font-bold text-xl">MSME Support</div>
           </div>
         </div>
       </section>
@@ -63,8 +63,8 @@ export default function Home() {
             },
             {
               icon: FileText,
-              title: "GST Registration",
-              desc: "Complete documentation support including Rent Agreement and NOC required for GST application.",
+              title: "Registration Support",
+              desc: "Documentation assistance including Rent Agreement and NOC to help with your business registration needs.",
               color: "text-indigo-600",
               bg: "bg-indigo-50"
             },
@@ -102,8 +102,8 @@ export default function Home() {
               <h2 className="text-4xl font-bold mb-8 leading-tight">Why Smart Founders Choose <br />Virtual Address.</h2>
               <div className="space-y-8">
                 {[
-                  { title: "24-Hour Documentation", desc: "Receive your notarized agreements and utility bills within one business day.", icon: Zap },
-                  { title: "Physical Verification Support", desc: "Our staff is present on-site to handle physical visits from GST inspectors.", icon: ShieldCheck },
+                  { title: "24-Hour Documentation", desc: "Receive your agreements and utility bills within one business day.", icon: Zap },
+                  { title: "Address Verification Support", desc: "Our team can help coordinate if any verification needs arise for your registered address.", icon: ShieldCheck },
                   { title: "Meeting Room Access", desc: "Book professional spaces on-demand for client meetings across all major cities.", icon: Globe }
                 ].map((item, i) => (
                   <div key={i} className="flex gap-6">
@@ -257,7 +257,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12 italic-none text-slate-900">Common Questions</h2>
           <div className="space-y-4">
             {[
-              { q: "Is this address valid for GST registration?", a: "Yes, we provide the Rent Agreement, NOC, and Utility Bill required by the GST department." },
+              { q: "Can this address be used for GST registration?", a: "We provide the Rent Agreement, NOC, and Utility Bill which are commonly requested for registration purposes. We recommend checking with your CA for specific requirements." },
               { q: "Do I need to visit the office physically?", a: "No, all processes are 100% digital. However, we do support physical visits if required for verification." }
             ].map((faq, i) => (
               <div key={i} className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">

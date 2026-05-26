@@ -35,7 +35,7 @@ export default function HighTrustCorporateFunnel() {
       {/* Top Trust Strip + Limited Availability */}
       <div className="bg-slate-900 border-b border-blue-500/20 py-2.5 px-4 text-center">
         <p className="text-white/70 text-[10px] font-bold uppercase tracking-[0.25em]">
-          Trusted by 50+ Enterprises • ISO 27001 Certified Infrastructure
+          Trusted by 50+ Enterprises • Secure Infrastructure
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export default function HighTrustCorporateFunnel() {
               </span>
             </h1>
             <p className="text-xl text-slate-400 mb-6 leading-relaxed italic-none max-w-xl">
-              Establish compliant regional offices and corporate headquarters across India's premier commercial districts. We provide the infrastructure; you focus on expansion.
+              Establish regional offices and corporate support presence across India's premier commercial districts. We provide the infrastructure; you focus on expansion.
             </p>
 
             {/* Avatar Section - Enterprise Trust */}
@@ -173,7 +173,7 @@ export default function HighTrustCorporateFunnel() {
             {
               name: "Sanjeev Mehta",
               role: "CFO, NeoBank India",
-              quote: "Deployed regional offices in 6 cities within 2 weeks. The consolidated invoicing and compliance support saved our legal team countless hours.",
+              quote: "Deployed regional offices in 6 cities within 2 weeks. The consolidated invoicing and documentation support saved our legal team countless hours.",
               avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces",
               company: "Fortune 500"
             },
@@ -231,7 +231,7 @@ export default function HighTrustCorporateFunnel() {
               Transparent Pricing for <br />Serious Businesses.
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed italic-none">
-              We've seen the ₹499/mo ads. They charge you extra for NOCs, mail handling, and compliance letters. Our pricing is fully-loaded, honest, and designed to satisfy your actual compliance needs.
+              We've seen the ₹499/mo ads. They charge you extra for NOCs, mail handling, and other documentation. Our pricing is fully-loaded, honest, and designed to support your business needs.
             </p>
           </div>
 
@@ -240,7 +240,7 @@ export default function HighTrustCorporateFunnel() {
             {/* Location 3: CARD 1 - The Honest Standard (₹999) - Removed motion.div */}
             <div className="p-10 rounded-[2.5rem] bg-white border border-slate-200 shadow-xl flex flex-col">
               <h3 className="text-2xl font-bold text-slate-900 mb-2 italic-none">Standard Operations</h3>
-              <p className="text-sm text-slate-500 mb-8 italic-none">Straightforward, fully-loaded virtual address for immediate compliance.</p>
+              <p className="text-sm text-slate-500 mb-8 italic-none">Straightforward, fully-loaded virtual address for immediate business needs.</p>
 
               <div className="mb-8">
                 <p className="text-5xl font-black text-slate-900 italic-none">₹999<span className="text-lg text-slate-500 font-normal">/mo</span></p>
@@ -250,9 +250,9 @@ export default function HighTrustCorporateFunnel() {
               <div className="space-y-4 mb-10 flex-grow">
                 {[
                   "Verified Premium Address",
-                  "GST & MCA Documentation (NOC Included)",
+                  "Business Documentation Support (NOC Included)",
                   "Unlimited Digital Mail Forwarding",
-                  "On-site Inspection Support",
+                  "On-site Verification Support",
                   "Cancel with 30-days notice"
                 ].map((feature, i) => (
                   <div key={i} className="flex items-start gap-3">
@@ -322,13 +322,13 @@ export default function HighTrustCorporateFunnel() {
           <div className="text-center mb-24">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 italic-none tracking-tight">Managed Corporate Ecosystems.</h2>
             <p className="text-slate-400 max-w-2xl mx-auto italic-none leading-relaxed">
-              We bridge the gap between digital flexibility and strict Indian regulatory requirements by providing professionally managed physical hubs.
+              We bridge the gap between digital flexibility and Indian business requirements by providing professionally managed physical hubs.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
-              { icon: ShieldCheck, title: "Verification Supportive", desc: "Our locations are managed to assist with departmental compliance checks, bank verifications, and MCA requirements." },
+              { icon: ShieldCheck, title: "Verification Support", desc: "Our locations are managed to assist with departmental compliance checks, bank verifications, and other business requirements." },
               { icon: Lock, title: "Secure Correspondence", desc: "Strict operational protocols for receiving, logging, and digitizing sensitive corporate and legal mail." },
               { icon: UserCheck, title: "Professional Front Desk", desc: "Trained administrative personnel to handle daily reception duties and coordinate during official premise visits." }
             ].map((item, i) => (
@@ -361,7 +361,7 @@ export default function HighTrustCorporateFunnel() {
               {[
                 "Consolidated Monthly Invoicing",
                 "Dedicated Enterprise Account Manager",
-                "Standardized Legal Documentation Formats",
+                "Standardized Documentation Formats",
                 "Assistance with Building Directory Signage"
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-4 group">
@@ -375,7 +375,7 @@ export default function HighTrustCorporateFunnel() {
             {/* Guarantee for Enterprise */}
             <div className="mt-10 flex items-center gap-3 bg-cyan-950/30 p-4 rounded-xl border border-cyan-500/20">
               <BadgeCheck className="w-5 h-5 text-cyan-400" />
-              <p className="text-xs text-slate-300">Enterprise SLA guaranteed • 99.9% uptime for mail handling • Dedicated account team</p>
+              <p className="text-xs text-slate-300">Enterprise SLA available • 99.9% uptime for mail handling • Dedicated account team</p>
             </div>
           </div>
         </div>
@@ -429,10 +429,10 @@ export default function HighTrustCorporateFunnel() {
         <h2 className="text-3xl font-bold text-center mb-16 italic-none text-white tracking-tight">Institutional Inquiries</h2>
         <div className="space-y-6">
           {[
-            { q: "Do you support MNCs expanding to India?", a: "Yes. We provide the commercial address and baseline No Objection Certificates required to support your legal team's MCA and ROC filings for Indian subsidiaries." },
+            { q: "Do you support MNCs expanding to India?", a: "Yes. We provide the commercial address and baseline No Objection Certificates to support your legal team's MCA and ROC filings for Indian subsidiaries." },
             { q: "Can we display our corporate signage?", a: "Most of our Enterprise-tier locations allow for brand name listing on the main building directory or internal lobby signage, strictly subject to individual building by-laws." },
             { q: "How is correspondence privacy maintained?", a: "We employ strict operational protocols for mail handling. Physical mail is securely stored, and digital scans are processed by authorized personnel only, prior to forwarding." },
-            { q: "What SLAs do you offer for enterprises?", a: "We provide custom SLAs including 4-hour response times, dedicated account managers, and monthly compliance reports. Contact our enterprise team for a detailed proposal." }
+            { q: "What SLAs do you offer for enterprises?", a: "We can provide custom SLAs including response time targets, dedicated account managers, and monthly reporting. Contact our enterprise team for a detailed discussion." }
           ].map((faq, i) => (
             <div key={i} className="p-8 rounded-[2rem] bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
               <h4 className="font-bold text-white mb-3 text-lg flex items-center gap-3">

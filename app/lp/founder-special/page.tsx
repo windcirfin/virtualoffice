@@ -51,15 +51,6 @@ export default function HighTrustFounderFunnel() {
         </p>
       </div>
 
-      {/* Urgency Banner - Limited Time Offer */}
-      <div className="bg-blue-50 border-b border-blue-200 py-2 px-4 text-center">
-        <div className="flex items-center justify-center gap-2 text-xs font-bold text-blue-800">
-          <AlertCircle className="w-3 h-3" />
-          <span>🔥 Launch offer: First 100 founders get 2 months free on annual plans — 47 spots left</span>
-          <Clock className="w-3 h-3" />
-        </div>
-      </div>
-
       {/* 2. HERO: LEAN STARTUP HOOK with Enhanced Social Proof */}
       <section className="pt-16 pb-24 px-4 lg:px-8 max-w-7xl mx-auto overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:40px_40px] opacity-30 -z-10"></div>
@@ -137,7 +128,7 @@ export default function HighTrustFounderFunnel() {
             <div className="relative bg-white border border-slate-200 rounded-[3rem] p-8 md:p-12 shadow-2xl">
               {/* Freebie Badge */}
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-500 text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-wider whitespace-nowrap">
-                🎁 Free Logo & GST Consultation
+                🎁 Free Logo & Consultation
               </div>
               <div className="text-center mb-8 mt-4">
                 <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1">Plans Starting From</p>
@@ -150,7 +141,7 @@ export default function HighTrustFounderFunnel() {
               <div className="mt-6 p-3 bg-blue-50 rounded-xl border border-blue-100">
                 <p className="text-[10px] text-blue-700 text-center font-bold uppercase tracking-wider flex items-center justify-center gap-2">
                   <FileCheck className="w-3 h-3" />
-                  Free document audit • Zero-obligation quote • Cancel within 7 days for full refund
+                  Free document review • Zero-obligation quote • Cancel within 7 days for full refund
                 </p>
               </div>
 
@@ -173,7 +164,7 @@ export default function HighTrustFounderFunnel() {
             {
               name: "Priya Mehta",
               role: "Founder, ShopEase",
-              quote: "Got our GST registration and bank account opened within 2 weeks. Saved ₹4L in first year vs traditional office.",
+              quote: "Got our registration and bank account opened within 2 weeks. Saved ₹4L in first year vs traditional office.",
               avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces",
               rating: 5
             },
@@ -294,13 +285,13 @@ export default function HighTrustFounderFunnel() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 italic-none tracking-tight">The Complete Startup Kit.</h2>
-            <p className="text-slate-400 italic-none">Professional infrastructure designed for legal and operational readiness.</p>
+            <p className="text-slate-400 italic-none">Professional infrastructure designed for operational readiness.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               { t: "Verified Address", d: "A-Grade business towers for websites & bank accounts." },
               { t: "Mailroom Services", d: "Instant digitization and daily WhatsApp notifications." },
-              { t: "Legal Documentation", d: "Notarized Agreement & NOC for GST/MCA filings." },
+              { t: "Legal Documentation", d: "Notarized Agreement & NOC for business filings." },
               { t: "Secure Courier Handling", d: "Professional management of sensitive business mail." },
               { t: "Physical Signage", d: "Brand board listing in the building lobby directory." },
               { t: "Member Boardrooms", d: "Preferred access to professional meeting spaces." }
@@ -338,16 +329,10 @@ export default function HighTrustFounderFunnel() {
       <BusinessRegistrationHub />
       <InfrastructureCapabilities />
 
-      {/* 7. FINAL ACTION with Urgency */}
+      {/* 7. FINAL ACTION */}
       <section className="py-24 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-indigo-50 -z-10"></div>
         <div className="max-w-4xl mx-auto px-6">
-          {/* Scarcity Badge */}
-          <div className="inline-flex items-center gap-2 bg-amber-100 text-amber-800 px-4 py-2 rounded-full mb-8">
-            <Calendar className="w-4 h-4" />
-            <span className="text-xs font-bold uppercase tracking-wider">47 spots left for 2 months free — founder launch offer</span>
-          </div>
-
           <h2 className="text-4xl md:text-6xl font-black mb-8 italic-none tracking-tighter">Ready to Launch Lean?</h2>
           <p className="text-slate-600 mb-10 text-lg italic-none max-w-xl mx-auto">
             Join 1,200+ founders who built their business presence on the smart foundation.
@@ -374,7 +359,7 @@ export default function HighTrustFounderFunnel() {
               <span>WhatsApp Founder Support</span>
             </WhatsAppButton>
           </div>
-          <p className="text-[10px] text-slate-400 mt-8">No credit card required • Free document audit • Response within 2 hours</p>
+          <p className="text-[10px] text-slate-400 mt-8">No credit card required • Free document review • Response within 2 hours</p>
         </div>
       </section>
 

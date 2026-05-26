@@ -4,7 +4,7 @@ import { LeadForm } from "../lead/LeadForm";
 export function HomepageHero() {
   const trustMetrics = [
     { icon: <ShieldCheck className="w-5 h-5 text-brand-primary" />, text: "Verified Addresses" },
-    { icon: <FileText className="w-5 h-5 text-brand-primary" />, text: "GST Documentation" },
+    { icon: <FileText className="w-5 h-5 text-brand-primary" />, text: "Documentation Support" },
     { icon: <MapPin className="w-5 h-5 text-brand-primary" />, text: "50+ Locations" },
   ];
 
@@ -33,14 +33,14 @@ export function HomepageHero() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.1] mb-6">
               Premium Virtual Offices for{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-indigo">
-                GST & Company
+                Business & Registration
               </span>{' '}
-              Registration.
+              Support.
             </h1>
             
             <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed">
-              Get a prestigious business address across India. We provide complete documentation 
-              support, mail handling, and fast onboarding without the premium price tag.
+              Get a prestigious business address across India. We provide documentation 
+              assistance, mail handling, and fast onboarding to help establish your presence.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-12">
